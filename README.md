@@ -9,7 +9,7 @@
 	<a href="https://snyk.io/test/github/MichMich/MagicMirror"><img src="https://snyk.io/test/github/MichMich/MagicMirror/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/MichMich/MagicMirror" style="max-width:100%;"></a>
 </p>
 
-**MagicMirror²** is an open source modular smart mirror platform. With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicMirror²** is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
+**MirrorUI** is an open source modular smart mirror platform. It is based on the incredible project of Michael Teeuw "MagicMirror²". With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicMirror²** is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
 
 MagicMirror² focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
@@ -46,7 +46,7 @@ Note that you will need to install the latest full version of Raspbian, **don't 
 Execute the following command on your Raspberry Pi to install MagicMirror²:
 
 ```bash
-bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
+bash -c "$(curl -sL https://raw.githubusercontent.com/adamclouder/MirrorUI/master/installers/raspberry.sh)"
 ```
 
 #### Manual Installation
@@ -54,7 +54,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 1. Download and install the latest *Node.js* version:
 - `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 - `sudo apt install -y nodejs`
-2. Clone the repository and check out the master branch: `git clone https://github.com/MichMich/MagicMirror`
+2. Clone the repository and check out the master branch: `git clone https://github.com/adamclouder/MirrorUI`
 3. Enter the repository: `cd MagicMirror/`
 4. Install and run the app with: `npm install && npm start` \
    For **Server Only** use: `npm install && node serveronly` .
