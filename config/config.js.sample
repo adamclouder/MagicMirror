@@ -88,21 +88,6 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
-		{
-			module: 'MMM-Remote-Control',
-			position: 'bottom_left',
-			// you can hide this module afterwards from the remote control itself
-			config: {
-			customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
-			showModuleApiMenu: true, // Optional, Enable the Module Controls menu
-			}
-		},
-
-		{
-			module: "MMM-PIR-Sensor",
-			config: {
-			}
-		},
 	]
 
 };
