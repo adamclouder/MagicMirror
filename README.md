@@ -46,7 +46,7 @@ Note that you will need to install the latest full version of Raspbian, **don't 
 Execute the following command on your Raspberry Pi to install MagicMirror²:
 
 ```bash
-bash -c "$(curl -sL https://raw.githubusercontent.com/adamclouder/MirrorUI/master/installers/raspberry.sh)"
+bash -c "$(curl -sL https://raw.githubusercontent.com/adamclouder/MagicMirror/master/installers/raspberry.sh)"
 ```
 
 #### Manual Installation
@@ -54,7 +54,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/adamclouder/MirrorUI/maste
 1. Download and install the latest *Node.js* version:
 - `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 - `sudo apt install -y nodejs`
-2. Clone the repository and check out the master branch: `git clone https://github.com/adamclouder/MirrorUI`
+2. Clone the repository and check out the master branch: `git clone https://github.com/adamclouder/MagicMirror`
 3. Enter the repository: `cd MagicMirror/`
 4. Install and run the app with: `npm install && npm start` \
    For **Server Only** use: `npm install && node serveronly` .
