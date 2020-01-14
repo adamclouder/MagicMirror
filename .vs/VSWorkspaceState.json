@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\splashscreen"
   ],
-  "SelectedNode": "\\modules",
+  "SelectedNode": "\\splashscreen\\splash.png",
   "PreviewInSolutionExplorer": false
 }
