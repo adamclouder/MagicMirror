@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\splashscreen"
+    "\\installers"
   ],
-  "SelectedNode": "\\splashscreen\\splash.png",
+  "SelectedNode": "\\installers\\upgrade-script.sh",
   "PreviewInSolutionExplorer": false
 }
