@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichMich/MagicMirror.git"
+    "url": "git+https://github.com/cybrneon/MagicMirror.git"
   },
   "keywords": [
     "magic mirror",
@@ -24,13 +24,13 @@
     "mirror UI",
     "modular"
   ],
-  "author": "Michael Teeuw",
+  "author": "CYBRNEON",
   "contributors": [
-    "https://github.com/MichMich/MagicMirror/graphs/contributors"
+    "https://github.com/cybrneon/MagicMirror/graphs/contributors"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichMich/MagicMirror/issues"
+    "url": "https://github.com/cybrneon/MagicMirror/issues"
   },
   "homepage": "https://magicmirror.builders",
   "devDependencies": {
