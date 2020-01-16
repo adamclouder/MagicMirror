@@ -24,7 +24,12 @@ var config = {
 	language: "en",
 	timeFormat: 24,
 	units: "metric",
-
+	// serverOnly:  true/false/"local" ,
+			     // local for armv6l processors, default 
+			     //   starts serveronly and then starts chrome browser
+			     // false, default for all  NON-armv6l devices
+			     // true, force serveronly mode, because you want to.. no UI on this device
+	
 	modules: [
 		{
 			module: "alert",
@@ -86,15 +91,6 @@ var config = {
 				showPublishDate: true,
 				broadcastNewsFeeds: true,
 				broadcastNewsUpdates: true
-			}
-		},
-			{
-			module: 'MMM-Remote-Control',
-			position: 'bottom_left',
-			// you can hide this module afterwards from the remote control itself
-			config: {
-			customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
-			showModuleApiMenu: true, // Optional, Enable the Module Controls menu
 			}
 		},
 	]

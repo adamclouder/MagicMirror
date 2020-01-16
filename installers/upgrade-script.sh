@@ -144,7 +144,7 @@ if [ -d ~/MagicMirror ]; then
 			
 		  # get the local and remote package.json versions
 			local_version=$(grep -m1 version package.json | awk -F\" '{print $4}')
-			remote_version=$(curl -s https://raw.githubusercontent.com/cybrneon/MagicMirror/master/package.json | grep -m1 version | awk -F\" '{print $4}')
+			remote_version=$(curl -s https://raw.githubusercontent.com/MichMich/MagicMirror/master/package.json | grep -m1 version | awk -F\" '{print $4}')
 			
 			# only change if they are different
 			if [ "$local_version." != "$remote_version." -o $force == $true -o $test_run == $true ]; then 
