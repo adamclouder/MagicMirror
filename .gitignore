@@ -65,9 +65,6 @@ Temporary Items
 !/modules/default/**
 !/modules/README.md**
 
-# Ignore changes to the custom css files.
-/css/custom.css
-
 # Vim
 ## swap
 [._]*.s[a-w][a-z]
