@@ -283,7 +283,7 @@ if [ $doInstall == 1 ]; then
 
 	cd ~/MagicMirror  || exit
 	if [ $(grep version package.json | awk -F: '{print $2}') == '"2.9.0",' -a $ARM == 'armv6l' ]; then
-	  git fetch https://github.com/cybrneon/MagicMirror.git develop >/dev/null 2>&1
+	  git fetch https://github.com/MichMich/MagicMirror.git develop >/dev/null 2>&1
 		git branch develop FETCH_HEAD > /dev/null 2>&1
 		git checkout develop > /dev/null 2>&1
 	fi
